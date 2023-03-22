@@ -23,3 +23,8 @@ for i in lst:
             count = count + 1
 
     print(f"Your Friend-{i} has {count} vowel")
+
+
+
+for i in range(10):
+    print("Assalamualaikum")
