@@ -24,12 +24,5 @@ for i in lst:
 
     print(f"Your Friend-{i} has {count} vowel")
 
-
-
 for i in range(10):
     print("Assalamualaikum")
-
-
-print(8+3)
-
-git config --global user.name “Your Name”
