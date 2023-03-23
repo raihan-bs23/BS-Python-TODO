@@ -31,3 +31,5 @@ for i in range(10):
 
 
 print(8+3)
+
+git config --global user.name “Your Name”
