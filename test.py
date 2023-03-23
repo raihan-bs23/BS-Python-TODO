@@ -28,3 +28,6 @@ for i in lst:
 
 for i in range(10):
     print("Assalamualaikum")
+
+
+print(8+3)
