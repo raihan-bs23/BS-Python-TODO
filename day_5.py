@@ -2,7 +2,7 @@
 # edit feature added
 todo = []
 while True:
-    userAction = input("Type add, show, edit, delete or exit -")
+    userAction = input("Type add, show, edit, complete or exit -")
     userAction = userAction.strip().lower()
     # strip for removing all the whitespace and lower for convert all the char to lowercase
     match userAction:
@@ -20,8 +20,8 @@ while True:
             number = int(input("Enter the number of the todo from list(i.e. 1) - "))
             print(todo[number-1].title())
             todo.__setitem__(number-1, input(f"Enter new Todo_{number} - "))
-        case 'delete':
-            number = int(input("Enter the number of the todo to delete (i.e. 1) - "))
+        case 'complete':
+            number = int(input("Enter the number of the todo you have completed (i.e. 1) - "))
             todo.pop(number-1)
         case whatever:
             print("You have enter unknown command !!")
