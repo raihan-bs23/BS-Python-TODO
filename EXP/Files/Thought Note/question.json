@@ -1,0 +1,10 @@
+[{"question text":"What is the name of National bird of Bangladesh?",
+      "alternatives":["Doel", "Crow", "Dove", "Kingfishers"],
+      "correct Answer":1},
+     {"question text": "Which of the following region is famous for tater sharee?",
+      "alternatives": ["Bagura", "Cumilla", "Tangail", "Kurigram"],
+      "correct Answer": 3},
+      {"question text": "Who is the biggest MF in history?",
+          "alternatives": ["Putin", "Hitler", "Your Friend", "Sefuda"],
+          "correct Answer": 3}
+     ]

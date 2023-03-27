@@ -7,6 +7,7 @@ todo = []
 '''
 This program is to solve a daily to do manager using python language
 '''
+print(f"Hello! its - {datetime.datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}")
 while True:
     userAction = input("Type add, show, edit, complete or exit -")
     userAction = userAction.strip().lower()
