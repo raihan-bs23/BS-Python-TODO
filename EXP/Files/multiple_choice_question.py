@@ -26,4 +26,6 @@ for question in data:
 
     print(message)
 
+    print("hello")
+
 
