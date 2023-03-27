@@ -5,7 +5,6 @@ filename = "todo_list.csv"
 fields = ["timestamp", "todo"]
 todo = []
 
-
 while True:
     userAction = input("Type add, show, edit, complete or exit -")
     userAction = userAction.strip().lower()
@@ -67,5 +66,5 @@ while True:
         case 'exit':
             break
         case whatever:
-            print("You have enter unknown command !!")
+            print("You have entered unknown command !!")
 print("Program exit. Bye !")
