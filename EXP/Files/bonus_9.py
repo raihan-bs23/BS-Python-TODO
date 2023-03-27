@@ -22,4 +22,4 @@ result.append(uppercase)
 if all(result):
     print("Strong Password !")
 else:
-    print("Weak Password !")
+    exit("Weak Password !")
