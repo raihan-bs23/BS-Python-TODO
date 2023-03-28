@@ -7,6 +7,7 @@ with open("EXP/Files/demo.csv", 'r') as file:
 
 id = input("Enter You BS ID-")
 
+
 for i in data[1:]:
     if i[0] == id:
         print(i[1:])
@@ -14,8 +15,8 @@ for i in data[1:]:
 '''
 to maipulate zip file
 '''
-shutil.make_archive("Output", "zip", "EXP/TEST")
-print("Zip File created!!")
+# shutil.make_archive("Output", "zip", "EXP/TEST")
+# print("Zip File created!!")
 
 '''
 search from website and make scrawler 
