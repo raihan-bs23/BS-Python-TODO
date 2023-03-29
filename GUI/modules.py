@@ -69,4 +69,20 @@ def edit_todo(todo, new_todo):
         writer.writeheader()
         writer.writerows(rows)
 
-# edit_todo('Bowing 727', 'test')
+
+def complete_todo(todo):
+    try:
+        with open(filename, 'r') as csvfile:
+            reader = csv.DictReader(csvfile)
+            rows = list(reader)
+    except FileNotFoundError:
+        rows = []
+
+    rows.pop(int(todo))
+
+    # Write the modified rows back to the CSV file
+    with open(filename, 'w', newline="") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(rows)
+
